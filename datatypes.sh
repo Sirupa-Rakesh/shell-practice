@@ -1,4 +1,6 @@
 #!  bin/bash
+
+
 NUMBER=255
 # -gt -> grater than
 # -nt -> not grater than
@@ -9,4 +11,3 @@ echo "given number is grater than 20"
 else
 echo "given number is not grater than 20"
 fi
-
