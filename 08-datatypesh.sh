@@ -1,12 +1,12 @@
-#! /bin/bash
+#!/bin/bash
 
 USERID=$(id -u)
-if [$USERID -eq 0 ]; then
 
-    echo "please wait you are not  root user"
+if [ $USERID -ne 0 ]; then
+    echo "Please run this script as root user"
     exit 1
 fi
 
-
-echo "installing nginx"
+echo "Installing nginx"
 dnf install nginx -y
+echo "Starting nginx service"
