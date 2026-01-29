@@ -6,3 +6,5 @@ if [$ USERID -eq 0 ]; then
 else
     echo "You are not root user"
 fi
+echo "installing nginx"
+dnf install nginx -y
