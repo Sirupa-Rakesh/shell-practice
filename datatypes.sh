@@ -8,6 +8,8 @@ NUMBER=255
 # -ne -> not equal
 if [ $NUMBER -gt 20 ]; then 
     echo "given number is : $NUMBER is grater than 20"
+elif  [ $NUMBER -eq 20 ]; then
+    echo "given number is : $NUMBER is equal to 20"
 else
-    echo "given number is : $NUMBER is not grater than 20"
+    echo "given number is : $NUMBER is less than than 20"
 fi
