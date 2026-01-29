@@ -1,7 +1,7 @@
 #!  bin/bash
 
 
-NUMBER=255
+NUMBER=$1
 # -gt -> grater than
 # -nt -> not grater than
 # -eq -> equal
