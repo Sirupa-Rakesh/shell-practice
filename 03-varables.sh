@@ -1,4 +1,4 @@
 #! bin/bash
 
 TIMESTAMPS=$(date)
-echo"Script executed at: $TIMESTAMPS"
+echo "Script executed at: $TIMESTAMPS"
