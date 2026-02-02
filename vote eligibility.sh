@@ -1,11 +1,11 @@
 #!/bin/bash
 # to check voting eligibility
 
-echo "enter your age "
+echo "Enter your age:"
 read age
-if [ $age -ge 18 ]; then
-   echo "you are eligible to vote"
-else
-    echo "you are not eligible to vote" 
 
+if [ $age -ge 18 ]; then
+    echo "You are eligible to vote"
+else
+    echo "You are not eligible to vote"
 fi
