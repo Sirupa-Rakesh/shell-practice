@@ -1,6 +1,6 @@
 #!/bin/bash
 # Loop from 1 to 10 and print numbers
- for i in {1..10}
+ for i in {1..10000}
  do
    echo $i
  done
