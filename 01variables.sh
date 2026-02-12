@@ -2,8 +2,8 @@
 
 # varables
 
-name="sirupa rakesh"
-class="btech ece"
+name="sandhya"
+class="INTER 2ND YEAR"
 age="21"
 
 
