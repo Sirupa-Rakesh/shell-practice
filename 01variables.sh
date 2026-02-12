@@ -2,9 +2,9 @@
 
 # varables
 
-name = "sirupa rakesh"
-class ="btech ece"
-age = "21"
+name="sirupa rakesh"
+class="btech ece"
+age= "21"
 
 
 
